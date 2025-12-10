@@ -1,0 +1,6 @@
+DB_NAME ="Carpooling"
+DB_USER ="postgres"
+DB_PASS ="AymenDb"
+DB_HOST ="localhost"
+DB_PORT ="5432"
+SECRET_KEY ="dev"

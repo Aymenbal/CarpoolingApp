@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="welcome">
+    <h2>Welcome to the Carpooling App</h2>
+    <p>This is a simple platform to find or offer car rides and share trips with others.</p>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Available Rides</h3>
+            <p>Browse and join rides offered by other users.</p>
+            <a href="{{ url_for('list_rides') }}" class="button">View Rides</a>
+        </div>
+
+        <div class="card">
+            <h3>Offer a Ride</h3>
+            <p>Share your upcoming trip with others and split travel costs.</p>
+            <a href="{{ url_for('offer_ride') }}" class="button">Offer a Ride</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

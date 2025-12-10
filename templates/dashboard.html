@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <h1>Welcome to Your Dashboard</h1>
+
+    <div class="section">
+        <h2>Upcoming Bookings</h2>
+        {% if bookings %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Departure Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for booking in bookings %}
+                        <tr>
+                            <td>{{ booking[0] }}</td>
+                            <td>{{ booking[1] }}</td>
+                            <td>{{ booking[2] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="no-data">No upcoming bookings found.</p>
+        {% endif %}
+    </div>
+
+    <div class="section">
+        <h2>Your Ride Offers</h2>
+        {% if offers %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Departure Time</th>
+                        <th>Available Seats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for offer in offers %}
+                        <tr>
+                            <td>{{ offer[0] }}</td>
+                            <td>{{ offer[1] }}</td>
+                            <td>{{ offer[2] }}</td>
+                            <td>{{ offer[3] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="no-data">You haven't offered any rides yet.</p>
+        {% endif %}
+    </div>
+
+    <!-- ✅ Go Back Home Button -->
+    <div style="margin-top: 2rem; text-align: center;">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">
+            ⬅ Go Back Home
+        </a>
+    </div>
+</body>
+</html>

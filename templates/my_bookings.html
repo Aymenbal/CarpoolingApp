@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>My Bookings</h2>
+
+  {% if bookings %}
+    <table>
+      <thead>
+        <tr>
+          <th>Ride Number</th>
+          <th>From</th>
+          <th>To</th>
+          <th>Departure Time</th>
+          <th>Booked By</th>
+          <th>Phone</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ride in bookings %}
+          <tr>
+            <td>{{ ride[0] }}</td>
+            <td>{{ ride[1] }}</td>
+            <td>{{ ride[2] }}</td>
+            <td>{{ ride[3] }}</td>
+            <td>{{ ride[5] }}</td> <!-- BookerName -->
+            <td>{{ ride[6] }}</td> <!-- Phone -->
+            <td>
+              <form action="{{ url_for('confirm_booking', ride_num=ride[0], user_id=ride[4]) }}" method="post" style="display:inline;">
+                <button type="submit">Confirm</button>
+              </form>
+              <form action="{{ url_for('cancel_booking', ride_num=ride[0], user_id=ride[4]) }}" method="post" style="display:inline;">
+                <button type="submit">Cancel</button>
+              </form>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>No one has booked your rides yet.</p>
+  {% endif %}
+{% endblock %}

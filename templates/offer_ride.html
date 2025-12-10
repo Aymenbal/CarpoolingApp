@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}Offer a Ride{% endblock %}
+
+{% block content %}
+<section class="form-container">
+    <h2>Offer a Ride</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="departure">Departure</label>
+            <input type="text" name="departure" required>
+        </div>
+        <div class="form-group">
+            <label for="destination">Destination</label>
+            <input type="text" name="destination" required>
+        </div>
+        <div class="form-group">
+            <label for="departure_time">Departure Time</label>
+            <input type="datetime-local" name="departure_time" required>
+        </div>
+        <div class="form-group">
+            <label for="seats">Available Seats</label>
+            <input type="number" name="seats" required>
+        </div>
+        <div class="form-group">
+            <label for="car_details">Car Details</label>
+            <input type="text" name="car_details" required>
+        </div>
+        <div class="form-group">
+            <label for="price">Price (MAD)</label>
+            <input type="number" step="0.01" name="price" required>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="button">Submit</button>
+            <a href="{{ url_for('list_rides') }}" class="button secondary">Cancel</a>
+        </div>
+    </form>
+</section>
+{% endblock %}

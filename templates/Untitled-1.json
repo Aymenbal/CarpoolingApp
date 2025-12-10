@@ -1,0 +1,396 @@
+{
+  "sections": [
+    {
+      "id": "PBS-s8buqd1698079666392",
+      "name": "row",
+      "blocks": {
+        "parameters": {
+          "rows-gap": 0
+        },
+        "style": {
+          "section-alignment": "center",
+          "is-full-width": false,
+          "width": "720",
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": 0,
+          "padding-right": 0,
+          "padding-bottom": 0,
+          "padding-left": 0,
+          "background-color": "transparent",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Container",
+      "children": [
+        {
+          "id": "PBS-huum4l1698079677413",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/DyRcaShD0r4T5oPBsV2q91h5VcuXNceAJ36JArW5.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        },
+        {
+          "id": "PBS-ib8wxo1698079715174",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/BOezDUwxlYVx0fxMdMjJ5q0nz9DVW3CxHrJaHmv8.png",
+              "type": "scroll-to-section",
+              "target-section": "PBS-25z9dl1675866166753",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "button",
+          "children": null
+        },
+        {
+          "id": "PBS-izmv5q1698079715892",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/S0OtQaFIAIXHG89PikXcL5u6oVtD0nN1ir7o0Xgp.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        },
+        {
+          "id": "PBS-s1op81698143255487",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/kJ8jl2jXUh8LPtpkCN2gdLl9fgwECoTFmyw0eGGK.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        },
+        {
+          "id": "PBS-ulcu0l1703514807474",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/6kl5DlRlEwmMKBL5y6kXBu7sKguQIJSzclv7V2ep.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        },
+        {
+          "id": "PBS-6sw1tr1703514863470",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/ViVYNRp7y0cwKqVircVqVnVqOi3P4Bnwqa3fEHNG.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        },
+        {
+          "id": "PBS-mt0qq1700752255861",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/p5AN4J5IwSbqPLrtQZ4viR3E6s1HP0QEkJtotgyE.png",
+              "type": "scroll-to-section",
+              "target-section": "PBS-25z9dl1675866166753",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "button",
+          "children": null
+        },
+        {
+          "id": "PBS-njq8vp1700752326081",
+          "name": "image",
+          "blocks": {
+            "parameters": {
+              "image": "https://cdn.youcan.shop/stores/25035914b544138e7cabf6b53465c630/others/0mOIi0jU7TVzmpnmI7EDBbcKkczTdrGMsSRGvKu0.png",
+              "type": "none",
+              "target-external-section": "#"
+            },
+            "style": {
+              "image-alignment": "center",
+              "is-full-width": false,
+              "width": null,
+              "height": null,
+              "border-t-l-radius": 0,
+              "border-t-r-radius": 0,
+              "border-b-r-radius": 0,
+              "border-b-l-radius": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Image",
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": "PBS-25z9dl1675866166753",
+      "name": "express-checkout-form",
+      "blocks": {
+        "parameters": {
+          "product-id": "4aea06fe-3794-459a-99b9-4e35ebcf8f27",
+          "show-product-price": true,
+          "show-product-compare-at-price": false,
+          "show-variants-selector": true,
+          "product-variant-id": null,
+          "button-text": "اطلب الآن",
+          "express-checkout-form-header": "<p style=\"text-align: center;\"><span style=\"font-size: 1.8rem; color: rgb(226, 80, 65);\"><strong>عرض محدوووود!!</strong></span></p><p style=\"text-align: center;\"><span style=\"font-size: 18px;\"><strong>املأ البيانات واطلب الآن</strong></span></p>",
+          "express-checkout-form-pre-footer": "<p style=\"text-align: center;\"><span style=\"color: rgb(65, 168, 95);\"><strong>التوصيل علينا والدفع عند الاستلام</strong></span></p>",
+          "express-checkout-form-footer": "<p><img src=\"https://i.ibb.co/7Xq2KbD/grn.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib\"></p>"
+        },
+        "style": {
+          "form-alignment": "center",
+          "form-border-width": 4,
+          "form-border-color": "#D7D9DB",
+          "form-border-radius": 6,
+          "form-border-style": "solid",
+          "price-alignment": "center",
+          "price-font-size": 4,
+          "price-text-color": "#2DBA53FF",
+          "price-font-family": null,
+          "price-font-weight": "bold",
+          "price-text-decoration": "none",
+          "price-line-height": 150,
+          "price-letter-spacing": 0,
+          "price-text-shadow": "0px 0px 0px #000000",
+          "compare-at-price-font-size": 1,
+          "compare-at-price-text-color": "#747474",
+          "compare-at-price-font-family": null,
+          "compare-at-price-font-weight": "normal",
+          "compare-at-price-text-decoration": "line-through",
+          "compare-at-price-line-height": 150,
+          "compare-at-price-letter-spacing": 0,
+          "compare-at-price-text-shadow": "0px 0px 0px #000000",
+          "variant-selector-direction": "column",
+          "variant-selector-alignment": "left",
+          "textual-button-text-color": "#000000",
+          "selected-textual-button-text-color": "#000000",
+          "textual-button-background-color": "#FFFFFF",
+          "selected-textual-button-background-color": "#FFFFFF",
+          "textual-button-border-color": "#e5e5e5",
+          "selected-textual-button-border-color": "#000000",
+          "color-button-border-color": "#e5e5e5",
+          "selected-color-button-border-color": "#000000",
+          "radio-button-checkmark-color": "#000000",
+          "radio-button-border-color": "#e5e5e5",
+          "radio-button-background-color": "#FFFFFF",
+          "image-button-border-color": "#e5e5e5",
+          "selected-image-button-border-color": "#000000",
+          "enable-input-label": false,
+          "input-font-size": 14,
+          "input-text-color": "#26292E",
+          "focus-input-text-color": "#26292E",
+          "input-placeholder-color": "#BBC0C3",
+          "input-padding-vertical": 10,
+          "input-padding-horizontal": 14,
+          "input-background-color": "#FFFFFF",
+          "focus-input-background-color": "#FFFFFF",
+          "input-border-width": 1,
+          "focus-input-border-width": 1,
+          "input-border-color": "#D6D9DB",
+          "focus-input-border-color": "#26292E",
+          "input-border-radius": 6,
+          "input-border-style": "solid",
+          "button-font-size": 14,
+          "button-text-color": "#FFFFFF",
+          "hover-button-text-color": "#FFFFFF",
+          "button-padding-vertical": 14,
+          "button-padding-horizontal": 24,
+          "button-background-color": "#2DBA53FF",
+          "hover-button-background-color": "#2DBA53FF",
+          "button-border-width": 0,
+          "hover-button-border-width": 0,
+          "button-border-color": "#FFBEB9",
+          "hover-button-border-color": "#FFBEB9",
+          "button-border-radius": 6,
+          "is-full-width": false,
+          "width": 600,
+          "height": null,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": 0,
+          "padding-right": 0,
+          "padding-bottom": 0,
+          "padding-left": 0,
+          "background-color": "transparent",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{\nmax-width: 600px;\nmargin: auto;\n}"
+        }
+      },
+      "label": "Express checkout",
+      "children": null
+    }
+  ],
+  "settings": {
+    "page-direction": "rtl",
+    "is-full-width": true,
+    "width": null,
+    "center-elements": false,
+    "background-color": "#FFFFFFFF",
+    "background-image": null,
+    "background-repeat": "no-repeat",
+    "background-position": "center",
+    "background-size": "cover",
+    "font-family": "Cairo",
+    "font-size-desktop": 16,
+    "font-size-mobile": 12,
+    "text-color": "#1a1a1a",
+    "content-alignment": "center",
+    "section-alignment": "center",
+    "margin-top": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+    "margin-left": 0
+  }
+}
